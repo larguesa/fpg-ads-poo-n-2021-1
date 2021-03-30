@@ -60,9 +60,8 @@
                             <td><%= day++ %></td>
                         <%}%>
                     <%}%>
-                    
-                    <%if(day>monthDays) break;%>
                     </tr>
+                    <%if(day>monthDays) break;%>
                 <%}%>
             </table>
         </div>
