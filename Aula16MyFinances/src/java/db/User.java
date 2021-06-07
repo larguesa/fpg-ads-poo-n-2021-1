@@ -38,6 +38,7 @@ public class User {
             String role = rs.getString("role");
             list.add(new User(login, name, role));
         }
+        rs.close();
         stmt.close();
         con.close();
         return list;
@@ -56,6 +57,7 @@ public class User {
             String role = rs.getString("role");
             user = new User(login, name, role);
         }
+        rs.close();
         stmt.close();
         con.close();
         return user;

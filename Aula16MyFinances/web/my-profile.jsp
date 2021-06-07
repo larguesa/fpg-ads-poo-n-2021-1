@@ -58,7 +58,7 @@
                 <br/><input type="password" name="password"/>
                 <br/>Nova senha:
                 <br/><input type="password" name="newPassword1"/>
-                <br/>Confirmeação da nova senha:
+                <br/>Confirmação da nova senha:
                 <br/><input type="password" name="newPassword2"/>
                 <hr/>
                 <input type="submit" name="changePassword" value="Alterar senha"/>
